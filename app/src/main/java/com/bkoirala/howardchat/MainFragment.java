@@ -70,7 +70,7 @@ public class MainFragment extends Fragment {
         return v;
     }
 
-    private class Chatter extends BaseAdapter {
+    private class ChatAdapter extends BaseAdapter {
         private Context mContext;
         private LayoutInflater mInflater;
         private List<Message> mDataSource;
